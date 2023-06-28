@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: url("img.jpg");
+  margin: 0px;
+  padding: 0px;
+  height: 1250px;
+}
+
+.left {
+  position: absolute;
+  left: 20px;
+  top: 25px;
+  position: fixed;
+  display: inline-block;
+}
+.left img {
+  height: 60px;
+  position: fixed;
+  margin: -11px 10px;
+}
+.mid {
+  display: block;
+  width: 40%;
+  margin: 30px auto;
+  padding: 5px 5px;
+}
+.right {
+  position: absolute;
+  right: 48px;
+  top: 36px;
+  display: inline-block;
+  position: fixed;
+}
+/*.right input{
+    border-radius: 6px;
+    height: 29px;
+    width: 190px;
+    border: 22px rgb(248, 248, 248);
+    background-color: rgb(224, 223, 223);*/
+
+.navbar {
+  display: inline-block;
+  position: fixed;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.navbar a:hover {
+  color: grey;
+}
+.btn {
+  margin: 5px 5px;
+  background-color: black;
+  color: white;
+  padding: 5px 4px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Roboto Slab", serif;
+}
+.btn:hover {
+  background-color: rgb(165, 152, 135);
+}
+.hey {
+  color: white;
+  margin: 53px auto;
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  border: 3px solid burlywood;
+  margin: 250px 1000px;
+  padding: 2px 8px;
+  border-radius: 17px;
+  width: 33%;
+  position: fixed;
+}
+
+.group input {
+  text-align: center;
+  display: block;
+  margin: 2px auto;
+  padding: 9px 4px;
+  font-size: 16px;
+  width: 350px;
+  border-radius: 8px;
+  background-color: white;
+  font-family: "Roboto Slab", serif;
+  
+}
+h3 {
+  color: white;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+
+.btn2 {
+  margin: 5px auto;
+  background-color: black;
+  color: white;
+  border: 2px solid gray;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Roboto Slab", serif;
+  display: block;
+}
+.btn2:hover {
+  background-color: rgb(165, 152, 135);
+}
+
